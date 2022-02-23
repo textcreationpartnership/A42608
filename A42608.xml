@@ -1,0 +1,556 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The general-excise consider'd</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 35 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A42608</idno>
+            <idno type="STC">Wing G498</idno>
+            <idno type="STC">ESTC R218830</idno>
+            <idno type="EEBO-CITATION">99830387</idno>
+            <idno type="PROQUEST">99830387</idno>
+            <idno type="VID">34838</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A42608)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 34838)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2091:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The general-excise consider'd</title>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1692]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from Wing.</note>
+                  <note>Copy tightly bound with some loss of text.</note>
+                  <note>Reproduction of the original in the John Rylands University Library, Manchester University, Manchester, England.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Excise tax --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-11</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:34838:1"/>
+            <pb n="1" facs="tcp:34838:1" rendition="simple:additions"/>
+            <head>THE General-Exciſe Conſider'd.</head>
+            <opener>
+               <salute>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>IR,</salute>
+            </opener>
+            <p>I Am glad to hear the Members of Parlia<g ref="char:EOLhyphen"/>ment for your Countrey are in the Diſ<g ref="char:EOLhyphen"/>poſition you ſpeak of, that they ceaſe being Enemies, as ſenſible they muſt <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>y their Countrey, or become juſt Friends <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>upport its Intereſt. It is time thoſe un<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>y Names of Parties be laid aſide; and <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> one common Term of eternal Reproach <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ew coin'd for them of either ſide, that <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ect the Duty of true Engliſh men in this <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>al Meeting.</p>
+            <p>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hus far we agree; but it was unreaſona<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> in you by one Queſtion in ſo ſhort a Let<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> to put me to the neceſſity of a Volume in <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>. It was fit onely to be ask'd a Dealer <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Revelations, <hi>What ſhall we do to ſup<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> the Honour and Intereſt of the Nation?</hi> 
+               <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> our End of the Town, by good luck, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Queſtion is reſolved in as few words as <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> propoſed it; <hi>Give a General Exciſe.</hi> This <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſingle Expedient, and the onely Reaſon <gap reason="illegible" resp="#MURP" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>hſafed for it is, You can ſupport the Go<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>ment no other way.</p>
+            <p>This is the Chimical State-Remedy inten<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> to all our Diſeaſes, which I think my ſelf <gap reason="illegible" resp="#MURP" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>ged to give you notice of, not ſo much <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> what I can ſay, as to put you and all ſober <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> thinking, that they may not wink like <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ſh Women, and let their Blood be drawn <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> them in ſuch a manner, as will not one<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eaken their own, but certainly deſtroy <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> publick Conſtitution.</p>
+            <p>
+               <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>t but that I own our Supplies for next <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> muſt be to the utmoſt of what the Na<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> can bear: In this I ſhall agree with a <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>mmiſſioner of the Treaſury, or a Chair<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> of a Money-Bill, though I may differ <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> him in the Ways of raiſing it, and per<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> in the Manner of laying it out. The End <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> great Taxes muſt be the Support of the <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ernment againſt its Enemies; but if the <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> propoſed for raiſing them more certain<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſtroy it than thoſe Foes can do, I muſt <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> leave to ſeek for other Methods. Now this, and nothing leſs, I take to be the Caſe, if Moneys be raiſed by a General Exciſe; and it is undeniable, that whatever Summ is ſo levied, ſhall coſt the People near a fourth part more than ſhall come to the Service of the Government, and that whatſoever is pre<g ref="char:EOLhyphen"/>tended to the contrary, the Burthen of this Tax does and muſt fall upon the Men of E<g ref="char:EOLhyphen"/>ſtates in Lands.</p>
+            <p>But before I go on, I muſt endeavour to ſhew the neceſſity of an Union between thoſe that differ perhaps in little things, yet agree in their Concern for the Well-being, Honor, and Safety of the Nation; our onely hope is in the Good-underſtanding of this Parliament, and I am convinced it was miſtaking one ano<g ref="char:EOLhyphen"/>ther begun thoſe Feuds, which are carried on (I fear) by ſome that pretend to Moderation.</p>
+            <p>It muſt be allowed of King <hi>Charles</hi> II. that the divided Intereſt of Proteſtant and Papiſt was what he encouraged, not ſo much out of Inclination to either, as always preferring thoſe that were for his preſent Purpoſes, when that is out of doors, a divided Intereſt amongſt Proteſtants may be managed to the ſame ends, it might ptrhaps be ſuſpected, if it were poſ<g ref="char:EOLhyphen"/>ſible to think the great Men in Affairs now, could have the like apprehenſion of Things with thoſe that influenced in the laſt Reigns.</p>
+            <p>But it may eaſily be diſcerned by any Bo<g ref="char:EOLhyphen"/>dy honeſtly inquiſitive, whether a ſincere U<g ref="char:EOLhyphen"/>nion be intended by thoſe that govern, to<g ref="char:EOLhyphen"/>wards reconciling Mankind to a publick Good, or whether the Buſineſs be to obtain their Ends upon a divided People.</p>
+            <p>The laſt Government has left us freſh <hi>Ideas</hi> of ſuch a <hi>Scaramuchi</hi> Adminiſtration, where the Managers, dreſt like <hi>Harlequin,</hi> one Side <hi>Spaniard,</hi> th'other <hi>French,</hi> have always half a Face ready for every Faction, but a Heart ſteady to nothing but their own Deſigns: A thouſand Inſtances might be given, to ſerve for the diſcovering the like, whenever they are afcot; but I ſhall onely mention ſome few, which may eaſily be diſcovered.</p>
+            <pb n="2" facs="tcp:34838:2"/>
+            <p>Firſt, When Men are examined by the Pro<g ref="char:EOLhyphen"/>ject, and not the Project by the Men.</p>
+            <p>Secondly, When the Liberty of Parliament is awed<g ref="char:punc">▪</g> And,</p>
+            <p>Laſtly, When the Integrity of its Members is attempted by C<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rruption.</p>
+            <p>To make my ſelf rightly underſtood: As to the firſt, I will ſuppoſe, That this Notion of a General Exciſe, ſo much talk'd of at pre<g ref="char:EOLhyphen"/>ſent, had been a State Project in the thoughts of the late King onely; and ſome Foreigner, a <hi>Dada</hi> ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nt from <hi>Rome,</hi> or a <hi>Barillon</hi> from <hi>France;</hi> they might juſtly have concluded, ſuch a Fund would enable them to carry on their Deſigns without Parliaments: And who doubts then whether the Privy Council had had been troubled with ſuch a Buſineſs, or whether without more conſideration, it had not been immediately ſet up for a Touch<g ref="char:EOLhyphen"/>ſtone of Men's Inclinations to the Govern<g ref="char:EOLhyphen"/>ment, and the ſubject Matter for Cloſetting, the Conſequence of which had been, Every Man had loſt his Employment, that had not approved and promiſed it, and any new Face received in to them, who had but heartily engaged.</p>
+            <p>One may ſay this Project had been thus managed in the laſt Reign, ſince in Relation to the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſt-Act the ſame Methods were taken, theſe P<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>actices gave the juſt Diſguſt of the laſt Court: And as they were the certain Signs of the Game I have mentioned, ſo what ever the Matter in queſtion be, it is this Man<g ref="char:EOLhyphen"/>ner of Managing of it betrays the like Deſign. This is fundamentally ſubverting the Conſti<g ref="char:EOLhyphen"/>tution, in my Opinion, to force Men to act againſt their Conſcience, or be undone, to proſtitute the Places of Profit and Honour deſigned as Encouragements and Reward, for thoſe that labour to ſupport the Government, to ſuch onely as can be found moſt ready to comply with whatſoever is expected from them.</p>
+            <p>This is the trying Men by the Project (as I call it,) theſe are the infa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lible Symptoms of an over ruling Ambition, that muſt be ſa<g ref="char:EOLhyphen"/>tisfied by any Means, by any Men, that will rather deal with known Enemies, that pro<g ref="char:EOLhyphen"/>feſs Compliance, than truſt to tried Friends, that have any Reſerves or Scruples.</p>
+            <p>But to the ſecond Point I mentioned, that of Impoſing upon Parliaments, or by any means Awing that Parliamentary Liberty and Authority, which I take to be the Life of our Government.</p>
+            <p>For Examples I muſt always revert to t<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> late Reigns, to which we all allow the De<g ref="char:EOLhyphen"/>ſigns I have ſpoken of: For what concerns th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> future I ſhall need repeat it no more, that take it for granted, in all Caſes from the like Premiſſes, we are to exp<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ct the like Conclu<g ref="char:EOLhyphen"/>ſions, from the like Men the ſame Deſign<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> from the like Management the ſame Thing<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> intended.</p>
+            <p>The Cloſetting then about the Teſt-Act <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> King <hi>James,</hi> muſt be allowed the moſt n<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>torious Attempt upon Parliamentary Libe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ties that ever was made, but at the ſame time the weakeſt. It was below a King to askin<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that manner, ſince it was beneath a Subject to own he would comply, though it were <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Opinion; the Folly of it was ſufficiently ma<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> ev<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ent at that time, for it ſtruck off fro<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> his Intereſt a number of Men, who had ac<g ref="char:EOLunhyphen"/>companied his Deſigns till then with the ut<g ref="char:EOLunhyphen"/>moſt Vigour.</p>
+            <p>Should he have made a Pill too big for them to ſwallow, that (Saviours of the Nati<g ref="char:EOLhyphen"/>on) had baffled the Popiſh Plot, and ſup<g ref="char:EOLhyphen"/>ported the Proteſtant one, that by one Blow worthy of their Parts, had ſtruck at all t<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Liberties of <hi>England</hi> by the ſingle Project <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the <hi>Chartres.</hi>
+            </p>
+            <p>Should the Doſe have been made ſuch a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thoſe Stomachs could not bear, that could dige<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t their Dinner in a place where Gibbe<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> were erected, and Men executed for their Entertainment.</p>
+            <p>Should they have been balk'd, who (tho' zealous Churchmen) could nevertheleſs, a<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Memb<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rs of the high Commiſſion Court, ſuſ<g ref="char:EOLhyphen"/>pend Biſhops, and diſincorporate Colledges, and for no other Crime than their unwilling<g ref="char:EOLhyphen"/>neſs to promote the Deſigns of the Papiſts.</p>
+            <p>But the damn'd Project failing in the main, had this unexpected and fatal conſequence; numbers of theſe Men made a full Stop, fore<g ref="char:EOLhyphen"/>ſeeing that Popery would ſpoil all, and chu<g ref="char:EOLhyphen"/>ſing rather to quit than to embarque in ſo mad a Game, they became Martyrs to the late King, and by that Merit are now let <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſo a Reforming Government, that for it<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> foundation declares againſt all thoſe Practice<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> their whole Lives have been engaged in; th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> conſequence of which I n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed not explain.</p>
+            <p>But, as I was ſaying, this Cloſetting w<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> the moſt unlikely way could be thought o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to obtain what was aimed at<g ref="char:punc">▪</g> by King <hi>Jame<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> Nothing ſo fatal to Authority as Contempt<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and Princes of all things ought to avoid <hi>De<g ref="char:EOLhyphen"/>nials.</hi>
+               <pb n="3" facs="tcp:34838:2"/> It was highly impolitick to refuſe to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is artfull Knaves the pretence of Honeſty; <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hich ſuch publick peremptory Summons to Obedience did do, to ſuch as could comply with them.</p>
+            <p>We ſaw how many he loſt by it: <hi>Ly<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ns</hi> have their Jack calls to raiſe their Prey; the <hi>Lords of Men</hi> ſhould have theirs, to ſpread their Notions: This telling to one at a time his Mind, was not a Majeſtick way, proper for Monarchs to uſe, who need not make their Subjects hear from their own Mouths, but feel the Effects of not apprehending quick<g ref="char:EOLhyphen"/>ly, and complying faſter.</p>
+            <p>Though there are different ways uſed to the ſame Deſigns, yet ſomething at laſt will betray them to be alike.</p>
+            <p>We have ſeen Men loſe their Emploiments, and they have been told for what:</p>
+            <p>We have ſeen Men loſe their Emploiments, and no reaſon given why.</p>
+            <p>We have ſeen impudent Promiſers, and noiſey Undertakers, received with open Armes.</p>
+            <p>We have ſeen thoſe in faſhion who could ſilently obey, and ask no Queſtions.</p>
+            <p>And can it be ſuppoſed theſe different Pra<g ref="char:EOLhyphen"/>ctices had the ſame View? This doubtleſs makes it evident they had, that no former Merits or Services could keep Men in the pub<g ref="char:EOLhyphen"/>lick Stations they were in, that they had this common Fate under the different Manage<g ref="char:EOLhyphen"/>ment, the oldeſt Servants, the moſt deſerving Friends, were forced to make way for a new Adoption; and with Reaſon; for in truth when a Project is once reſolved on, thoſe muſt be found out that wi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l undertake it, or at leaſt will inſignificantly ſit ſtill, whilſt others tranſact in it.</p>
+            <p>But as to the laſt Point, the Corruption uſed in Parliaments, it is not to be doubted, that where Menaces are uſed, Rewards are likewiſe offered to induce Men to comply, but neither being neceſſary to perſuade Men to their common Intereſts, Threats and Pre<g ref="char:EOLhyphen"/>ferments can never be made uſe of to Parlia<g ref="char:EOLhyphen"/>ment Men for a good Deſign.</p>
+            <p>But, good God! May we not ſay there has been a Trade amongſt us, as well known as any other, that I mean of a Parliament Man; and when ſhall we be happy enough to have it otherwiſe? It was <hi>Maſaniſſa</hi>'s Expreſſion of <hi>Rome, Venalis eſſes, ſi Emptorem inveniris:</hi> I am ſure there is no Man can ſell his Coun<g ref="char:EOLhyphen"/>trey, but there muſt be a Purchaſer. We happened once to know remarkably; who bought, who ſold, and what was paid: It may often be perceived, though ſeldom ſo luckily made out.</p>
+            <p>But to conclude with ſomething poſitive, and with agreeable Notions, after ſo many ugly ones, this being a time of great Expec<g ref="char:EOLhyphen"/>tation for Reformation, we will determine that Government to be free from any Suſpi<g ref="char:EOLhyphen"/>tion of ſuch Aims or Deſigns as have been ſpoken of,</p>
+            <p>When there are no particular Projects ſo hatch'd and prepar'd for Parliaments, as that it is expected aforehand they ſhould be com<g ref="char:EOLhyphen"/>ply'd with.</p>
+            <p>When they are not given out in an <hi>Atha<g ref="char:EOLhyphen"/>naſian</hi> Way, <hi>whoſoever does not doe thus and thus, ſhall neither be thought Friend to King nor Kingdom.</hi>
+            </p>
+            <p>When honeſt Men are not diſpoſſeſt of their Places, till ſome notorious Miſcarriage makes the World ſenſible they are juſtly removed, or ſome good Reaſon be given for it.</p>
+            <p>When Men of Integrity are not Project<g ref="char:EOLhyphen"/>hanged, and their Places diſpoſed of to any ſort of Tools, who are ready to ſerve the Government, (as they call it,) and muſt need in ſome time the Shelter of the Crown to de<g ref="char:EOLhyphen"/>fend them from Parliaments, if they want it not already.</p>
+            <p>When notorious Offenders againſt the fun<g ref="char:EOLhyphen"/>damental Conſtitution are puniſhed, or at leaſt not countenanced.</p>
+            <p>When thoſe in Places of Truſt may be de<g ref="char:EOLhyphen"/>pended upon, and that the Secrets and Fate of the Nation are not put into Mens hands by way of Experiment, upon the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>efined Poli<g ref="char:EOLhyphen"/>ticks of Making Friends.</p>
+            <p>When it is not thought more expedient to truſt Complying Enemies, than Plain-deal<g ref="char:EOLhyphen"/>ing Friend<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, eſpecially when the one have the common Conſent of Merit, the other the Marks of publick Cenſure upon them.</p>
+            <p>When there is no Parliamentary Traffick a foot, and that no Places are held in the ca<g ref="char:EOLhyphen"/>pacity of able Men in the Houſe of Commons, to which they could no other ways be en<g ref="char:EOLhyphen"/>tituled.</p>
+            <p>When Men of ſteady Principles are not ex<g ref="char:EOLhyphen"/>poſed to reproachful Titles by ſilly Flatterers, and that Men always in communion with the Church of <hi>England,</hi> are not called with as little reaſon Fanaticks, as thoſe that gave a Crown Commonwealthſmen.</p>
+            <pb n="4" facs="tcp:34838:3"/>
+            <p>Laſtly, When a Spade is called a Spade, and not an ambitious Sta<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſman the Support of the Church, or a covetous old flattering Fanatick a Patriot; for ſuch miraculouſly have we ſeen in ſeaſon at the ſame time.</p>
+            <p>But now that God has ſo miraculouſly bleſt our Arms in the Recovery of our own, I hope he will make the Bleſſing complete, by re<g ref="char:EOLhyphen"/>conciling us amongſt our ſelves; I hope thoſe that are to conſult for our future Eſtabliſh<g ref="char:EOLhyphen"/>ment, are now out of danger of being ſwayed by vain Fears, or influenced by any thing but Right Reaſon.</p>
+            <p>Theſe three Years have made us acquain<g ref="char:EOLhyphen"/>ted with one another, and are ſufficient to let wiſe Men know what they have to expect. The King is acquainted with his People, the People with their King; they know the Ha<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ards he is willing to expoſe his Perſon to, againſt the publick Enemy; he (I hope) is ſo well ſatisfied of the Fidelity and Courage of his Subjects, as to be convinced this is the proper time to lay that Tie and promis'd Ob<g ref="char:EOLhyphen"/>ligation upon them, of diſmiſſing the foreign Troops according to his Declaration.</p>
+            <p>I expect with great hopes a happy Union of Parties, on which I think our future Hap<g ref="char:EOLhyphen"/>pineſs depends, ſince the great Point that firſt divided us, was Regency, or Election; and I believe the Prejudices on both ſides are aba<g ref="char:EOLhyphen"/>ted upon juſt Ground.</p>
+            <p>Thoſe that in their Apprehenſion of what they might expect from the late King for the Nation and themſelves, were zealous to have a Crown'd Head to protect both, can hardly be wondred at; but ſome of the moſt emi<g ref="char:EOLhyphen"/>nent of them have ſo plainly ſhewed by their Actions ſince, they were incapable of com<g ref="char:EOLhyphen"/>plementing in a publick Concern, that I am confident all the World does and muſt agree, That what they did was according to their Judgments for the publick Good.</p>
+            <p>And I am of opinion, that the other Party who fear<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d the Regency, was onely propoſed in favor of the late King, are convinced ſince there were publick ſpirited Men of that Sen<g ref="char:EOLhyphen"/>timent, who acted upon no ſuch Deſign, but expecting more Agreement in ſuch a Settle<g ref="char:EOLhyphen"/>ment, and as great a Reformation upon that Foundation.</p>
+            <p>However, it were ridiculous now to quar<g ref="char:EOLhyphen"/>rel with thoſe as Enemies to the King's Inte<g ref="char:EOLhyphen"/>reſt upon that account, on whom he has con<g ref="char:EOLhyphen"/>ferred ſuch Favors, placing ſo many of them in publick Employments, that rather thoſe have reaſon to think themſelves unfortunate, that were not of that Judgment too.</p>
+            <p>This makes me flatter my ſelf; theſe Diſ<g ref="char:EOLhyphen"/>putes will ceaſe, and that all will agree hearti<g ref="char:EOLhyphen"/>ly in their Endeavors to ſupport K. <hi>William</hi> and the Government, the King, the Cuſtoms the Laws; this whole I call the Conſtitution, which ſtitution whoever is weary of, let him give a general Exciſe: For I doubt not but plain<g ref="char:EOLhyphen"/>ly to demonſtrate all I have ſaid concerning it, and to prove, that it entirely deſtroys the pre<g ref="char:EOLhyphen"/>ſent Form of Government; Thoſe that will ſhew us the better one they intend to pro<g ref="char:EOLhyphen"/>duce in the Room of it, I think ſhould be heard, and to that point onely, in Parliament, though it is dangerous to change in moſt things, and I hope we ſhall be moſt of all unwilling to try Experiments in this.</p>
+            <p>I would deſire to know whether a Parlia<g ref="char:EOLhyphen"/>ment be onely neceſſary in <hi>England,</hi> for gi<g ref="char:EOLhyphen"/>ving of Moneys, though it has been too often uſed, as if it were ſo; yet that wili hardly be maintained.</p>
+            <p>There are many Uſes of Parliaments, of which I ſhall ſpeak preſently, which makes them eſſential to the whole, not to ſay that they really are a part of our Conſtitution: but if it be onely in the King's Power, to call or diſmiſs them at his Pleaſure; I ask then, They that give ſuch a Fund as may ſupport the Crown in all the Exigencies of War, as well as Peace, Have they not put that part of the Government, eſſential to us upon ſo many Accounts, in a poſſibility of being laid aſide, during the pleaſure of any Miniſter?</p>
+            <p>What is this then but an Alteration of the Conſtitution, if Parliaments are a part of it, and the Supplies which I allow, may this way be provided for, be not what onely makes them neceſſary.</p>
+            <p>I ſhall now take the Liberty to ſhew why, and in what, Parliaments are indiſpenſably ne<g ref="char:EOLhyphen"/>ceſſary to the Being of our Government, and that will more evidently ſhew ſuch a Tax to be the very deſtruction of it; and I ſhall not fail to anſwer, in the firſt place, the Excuſe they make for themſelves who would agree to ſuch a Tax, <hi>That they would onely give it for a Time.</hi>
+            </p>
+            <p>Are not Parliaments neceſſary to make ſea<g ref="char:EOLhyphen"/>ſonable and wholeſome Laws, and as neceſſary to unmake ſome, as make others? The Act of Conformity had no Effects ſuitable to its Deſigns; and the Utility expected from the Teſt Act did not anſwer Expectation, for
+<pb n="5" facs="tcp:34838:3"/> Papiſts were admitted into Employments af<g ref="char:EOLhyphen"/>terwards; nay Men turn'd Papiſts to have <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>em. But I hope this good will be found <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ever, in the repeal of one of them, that <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Proteſtants amongſt us may live unper<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>cuted.</p>
+            <p>But now ſure, more than ever, it muſt be <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>bw'd, That Parliaments are neceſſary to <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>p Miniſters in a we, to examine and re<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>m Abuſes in Government, and Violations <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Law; ſince the preſent King, when Prince of <hi>Orange,</hi> did refer in his Declaration all <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>oſe Grievances, and the Promoters of them <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o Parliament, as the proper place to have <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>oſe Irregularities red, eſs'd, which made his <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>y to the Crown.</p>
+            <p>But we muſt ſpeak plainly under a good <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ng, who is but imperfectly ſo, if he do <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>t help us to provide againſt a bad one; <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> we muſt ſay that the Eſſential uſe of Par<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ment, is to prevent the Nation being op<g ref="char:EOLhyphen"/>preſs'd by unneceſſary Taxes, and to provide <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the good Diſpoſition of them when given.</p>
+            <p>It is impoſſible to ſuppoſe a People un<g ref="char:EOLhyphen"/>willing to contribute to their own Security; <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e Danger is not on that ſide; but we may <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ppoſe (for we have ſeen already) an ill uſe <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>de of what has been given for their Pre<g ref="char:EOLhyphen"/>ſervation: The Supplies, Revenues, and Taxes given to the late King, were never deſign'd (<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>re) to pay Penſions to Father <hi>Petre,</hi> to ſupport Embaſſies to <hi>Rome,</hi> to introduce Po<g ref="char:EOLhyphen"/>pery, and ſuppreſs the Proteſtant Religion.</p>
+            <p>If then, in plain Engliſh, the whole Bal<g ref="char:EOLhyphen"/>lance of the Government on the People's ſide, if that which only makes it a limitted Monar<g ref="char:EOLhyphen"/>chy, and not the Tyranny of <hi>France,</hi> be that Parliaments muſt meet to the terrour of Mi<g ref="char:EOLhyphen"/>niſters, and redreſs of Grievances; And why muſt they meet? Becauſe ſooner or later the neceſſity of Affairs will require it; if this be a known Truth, Muſt we not own, that whatſoever takes off this Neceſſity of Parli<g ref="char:EOLhyphen"/>ment deſtroys our Government?</p>
+            <p>The Argument of a good Prince is no<g ref="char:EOLhyphen"/>thing to the purpoſe, nor can any Neceſſity be <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> good one under the moſt deſpotick Govern<g ref="char:EOLhyphen"/>ment: The Adminiſtration may be Gentle and Juſt in one Reign, and return to its Vio<g ref="char:EOLhyphen"/>lence in another; nor can any Neceſſity make Men reaſonably avoid one Danger by running into a greater.</p>
+            <p>Shall this give us Satisfaction, being told to allay our Fears, that ſuch a Tax under the <gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>icteſt Penalties ſhall be confined to a time.</p>
+            <p>I will ſuppoſe any thing under the preſent Government, though it was honeſtly and wiſely ſaid of a great Man, that I fear will be wanted, and was well known in Parliament, That he could ſuppoſe nothing where the Nation was concern'd; but if this General Exciſe ſhould be given for ſome Years only, thoſe Princes are Mortal we have ſuch Confi<g ref="char:EOLhyphen"/>dence in, and the continuation of the addi<g ref="char:EOLhyphen"/>tional Cuſtoms expired with the Life of King <hi>Charles,</hi> yet notwithſtanding were Collected by the late King's command, does plainly ſhew what we might expect upon the like occaſion; Did he not force the Payment of that Tax againſt Law? Did he not force it, when without an Army? And can any Man believe, even in the bearing Humour this Na<g ref="char:EOLhyphen"/>tion has long been in, That King <hi>James</hi> durſt have levied a new Tax without conſent of Par<g ref="char:EOLhyphen"/>liament, but the continuance of what already has been in practice, of what the People have been uſed to comply with, we know has been ſucceſsfully ventured upon, though againſt Law.</p>
+            <p>I muſt confeſs the Miniſters, who pre<g ref="char:EOLhyphen"/>tend, long ſince to have foreſeen the Ne<g ref="char:EOLhyphen"/>ceſſity of this General-Exciſe for a time, ſhould (whoever had eſcap'd) have made ſome Examples of thoſe who acted in the il<g ref="char:EOLhyphen"/>legal Collection of thoſe Duties, ceaſing to be due by Law, if they would have had us believe at any time, that ſuch a ſufficient Pro<g ref="char:EOLhyphen"/>viſion, once in a way of being Collected, ſhould ever ceaſe.</p>
+            <p>But I have other Reaſons to make me con<g ref="char:EOLhyphen"/>clude this Tax, once eſtabliſhed, would ne<g ref="char:EOLhyphen"/>ver dye. I remember thoſe Verſes in <hi>Hudi<g ref="char:EOLhyphen"/>braſs.</hi>
+            </p>
+            <lg>
+               <l>
+                  <hi>But when the date of was Nock out,</hi>
+               </l>
+               <l>
+                  <hi>Off drop'd the ſympathetick Snout.</hi>
+               </l>
+            </lg>
+            <p>When the date of this Tax were out, ſo many ſympathiſing Officers would be ſet a drift again. That I dare Anſwer for it, the diligence theſe Exciſe Men would uſe for their own Preſervation, would not fail to pro<g ref="char:EOLhyphen"/>cure an Exciſe Parliament; the influence they have is well known in their Management of one Branch, and how they make uſe of it; and the certain ſucceſſion that would inevi<g ref="char:EOLhyphen"/>tably enſue, no doubt would prove a great Bleſſing to the Nation.</p>
+            <p>This Exciſe would beget ſuch a number of Officers, ſuch Officers would procure ſuch
+<pb n="6" facs="tcp:34838:4"/> Parliament Men, ſuch Parliament Men would give ſuch Votes, ſuch Votes would deſerve ſuch Pentions, ſuch Pentions would be ſo well paid upon ſuch a Fund, that who can doubt of its continuance. But whenever this Tax is vehemently inſiſted upon, it may juſtly raiſe great Suſpicions, that it is not a publick or immediate Neceſſity that makes it ſo preſt but ſome other Reaſon. In the utmoſt Neceſ<g ref="char:EOLhyphen"/>ſity, Can that be a fit Tax to be given, which muſt coſt near a fourth part in Collecting? And that for a preſent Occaſion which is wholly uncertain, and neither to be model<g ref="char:EOLhyphen"/>led, or gueſs'd at in ſome few Years?</p>
+            <p>But what gives juſt Jealouſies to thinking Men, is, That they are ſure the Government cannot be ſo wrongfully inform'd as not to know, that a General-Exciſe is little other than a Tax upon Land accompanied with moſt dangerous Circumſtances to the Conſti<g ref="char:EOLhyphen"/>tution, and uneafie to the People.</p>
+            <p>If an Exciſe be laid upon every Thing, which a Man of Neceſſity muſt buy, Is not that in Proportion to that Exciſe, ſo much out of his Money, which comes out of his Land? If a Man can conceive it as eaſie to pay, by ſo many two Pences and Groats in a Day in Exciſe, what otherwiſe he muſt pay by ſo many Crowns a Month out of his Eſtate, I have nothing to ſay.</p>
+            <p>But were it as ſome conceive, that all People paying a kind of Proportion, the Lan<g ref="char:EOLhyphen"/>ded Men are eaſed: If this were true it were moſt unadviſable in our preſent Circumſtan<g ref="char:EOLhyphen"/>ces, ſhould we bring a Tax upon the common People, who never felt the weight of one be<g ref="char:EOLhyphen"/>fore, eſpecially when we depend upon their inclinations and ſteadineſs to our Intereſt.</p>
+            <p>But, alas! the common Man of <hi>England</hi> muſt have his Proportion of Meat, of Ale, and his time to loiter; God forbid we ſhould alter the Heart and Conſtitution of them, and ſtarve them into French Men; if they muſt pay more for what they have, they will have ways in Proportion to that Expence, ſo that beſides what is tax'd in every Exciſe, and ex<g ref="char:EOLhyphen"/>preſſed in the Law, the Landed Man muſt pay three Pence or a Groat extraordinary to every Labourer they employ by the Day, and two or three Pounds a Year more to thoſe they give Wages to by the Year.</p>
+            <p>Would not any Man rather juſtly compute, and give knowingly and chearfully what is neceſſary for the publick Support, than have his Pockets thus pick'd by his own Conſent, not being (as was ſaid by one of our Kings) able to part with a Summ, when he either ſaw, or knew what it was?</p>
+            <p>This alone has ſome colour of Reaſon in it, that Merchants and Money'd Men, who are not touched in Land Taxes, would con<g ref="char:EOLhyphen"/>tribute ſomething this way; but ſure for this there might be found more effectual Means. I ſhall only Anſwer that the Contribution of ſuch Men in Exciſe, would be very inconſi<g ref="char:EOLhyphen"/>derable, and in no Proportion; they that get moſt Money ſpend leaſt: And I would have it but enquired into, if a certain Knight, well known in <hi>Weſtminſter,</hi> would pay in Exciſes for Meat, Drink, and Equipage, proportion<g ref="char:EOLhyphen"/>ably to <hi>200000l.</hi> Eſtate.</p>
+            <p>But as for the Neceſſity pretended (which, give me leave, by the bye to obſerve) ſome<g ref="char:EOLhyphen"/>times is made ſo great, you would ſuppoſe we were almoſt doom'd to certain Deſtructi<g ref="char:EOLhyphen"/>on, and then nothing but a General Exciſe can ſupport us; when at another time to doubt of the ſucceſs of any Thing humanely impoſſible, is a capital Offence.</p>
+            <p>What then are the preſent Difficulties we labour under? A War with <hi>France,</hi> and a Title to which there are other Pretenders: The Diſputes betweem the Houſe of <hi>York</hi> and <hi>Lan<g ref="char:EOLhyphen"/>caſter</hi> are not yet forgotten, and Wars abroad we had during thoſe Diſputes; no doubt thoſe Parliaments which met under thoſe dif<g ref="char:EOLhyphen"/>ferent Titles, had as much mind to ſecure themſelves againſt the oppoſite Party, as we can have againſt King <hi>James,</hi> and as great a deſire to ſupport the Honour of the Nation, as we can have; yet never was there ſuch Difficulties pretended, or ſuch Dangers as could give them the Confidence to offer at, or propoſe a General Exciſe.</p>
+            <p>The ſame Providence that has ſupported us thus long without this Expedient, I doubt not will continue to do ſo; but I think no<g ref="char:EOLhyphen"/>thing leſs than a Miracle can preſerve this Conſtitution, if that be once granted.</p>
+            <p>For Heavens ſake, What were they leſs than Mad in King <hi>Charles</hi>'s Time, who were always preſſing that Prince to a War with <hi>France,</hi> and giving declared Supplies for that purpoſe? Were they not perfectly Diſtracted, that were ſo impatient to draw ſuch an un<g ref="char:EOLhyphen"/>reaſonable Power upon themſelves, ſince now at a time, when the Emperour, ſo many Ger<g ref="char:EOLhyphen"/>man Princes, <hi>Spain, Holland,</hi> and part of <hi>Italy,</hi> are in Wars with <hi>France,</hi> they are yet ſo for<g ref="char:EOLhyphen"/>midable, that nothing but a General-Exciſe
+<pb n="7" facs="tcp:34838:4"/> can ſave us, or ſupport us in this War againſt that Enemy, which we have ſo lately con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ded againſt at Sea with the Dutch on our <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>.</p>
+            <p>What can ſo extreamly alter the Caſe? It muſt be a miſmanagement of our Strength <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d Wealth. I ſhall not ſay how much <hi>France</hi> might have been annoyed with leſs Expence, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d Force rightly employ'd; nor how little <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eaſon we have to boaſt of a part of our own Dominion, reduced by the hand of God, and a ſeries of Miracles, which we owe to our <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>n Negligence, that we ever diſputed for. I ſhall not ſpeak of our Diſgraces at Sea, our Intereſt in that Point has been ſo betray'd in <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e laſt Reigns, that it ought doubly to be <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ok'd after in this. But my great fear is, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e War is forc'd into a wrong Channel, by <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>me that are Strangers to the true Intereſt <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d proper Glory of the Nation.</p>
+            <p>However I ſhall wave theſe retroſpects, and <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ke the Matter of Fact, as it is, for our pre<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>nt Conſideration.</p>
+            <p>
+               <hi>Ireland</hi> reduc'd, <hi>Scotland</hi> ſufficiently ſecu<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d by the late Treaties, a Peace as good as <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>cluded between the Emperour and the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urk, the French drove out of <hi>Italy</hi> and <hi>
+                  <gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>dmont,</hi> and brought upon the Defenſive in <hi>Dauphine</hi> and <hi>Flanders.</hi> Are we not in evi<g ref="char:EOLhyphen"/>dent Dangers? And can any Thing leſs than <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> General Exciſe ſave us?</p>
+            <p>Yes, I apprehend we are; and the more <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> all theſe Succeſſes, if we look not to the main Chance. The Sea, 'tis there we ought to make great Efforts, extraordinary ones in<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eed for our own ſakes, and for the general intereſt, if rightly underſtood.</p>
+            <p>What ſhall <hi>England</hi> be the better for all the Succeſſes ſhall attend the Confederate Armies? Shall we make War wholly for our Allies, ſpend all our Wealth in Land Forces, and forget that we have the Dominion of the Sea to maintain? Shall we ſend all the pre<g ref="char:EOLhyphen"/>ſent Stock out of the Nation, and over<g ref="char:EOLhyphen"/>look our Trade, the only means of getting more?</p>
+            <p>What becomes of <hi>England?</hi> What Ad<g ref="char:EOLhyphen"/>vantages can benefit them, if the French be <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot humbled at Sea? Nay, I will maintain it more dangerous for the whole, if the Wealth <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f <hi>France</hi> be employ'd after a Peace made <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or Four of Five Years in the Marine only, he <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ay then begin again, and be fairer then ever <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>r the Empire of the World, or be ſure to <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Maſter of the Trade of it.</p>
+            <p>If we muſt go this way to work, let us know it is an Article agreed with all our Al<g ref="char:EOLhyphen"/>lies, that a Peace be never concluded till the French are forc'd by Land to deſtroy their own Harbours, to burn their own Ships.</p>
+            <p>For our <hi>Sixty five thouſand Men</hi> when <hi>Ire<g ref="char:EOLhyphen"/>land</hi> is reduc'd, and <hi>One hundred and fifty Ships</hi> kept at Sea, I hope we have ſome proſ<g ref="char:EOLhyphen"/>pect we are to have ſome ſhare in the Spoil; all I deſire, is, we may have the ſame proba<g ref="char:EOLhyphen"/>lity, that <hi>Breſt</hi> and <hi>Dunkirk</hi> ſhould be made uſeleſs, as the Emperour may have of <hi>Stras<g ref="char:EOLhyphen"/>burgh</hi> and <hi>Luxemburgh,</hi> the Spainard of <hi>Mons,</hi> the Savoyard of <hi>Caſſal</hi> and <hi>Pignerol.</hi>
+            </p>
+            <p>But nothing ſurpriſeth me more than the Diſcourſes of ſome amongſt us, That give out as if the whole Confederacy was engaged in War upon our Account, and therefore we are obliged in Honour to ſupport it at any rate. Was not the War begun between the Emper<g ref="char:EOLhyphen"/>our and <hi>France,</hi> before the Prince of <hi>Orange</hi> came over into <hi>England?</hi> What made the <hi>States of Holland,</hi> but their own Intereſt, ſup<g ref="char:EOLhyphen"/>ply the neceſſary Charge of the Expedition? Did they not however expect it? And were they not well paid for it? In what we do for them, on the like Score, (though for our own Security.) Ought we not to demand and expect the like?</p>
+            <p>But to be told of ſeparate Peaces, and be<g ref="char:EOLhyphen"/>ing left in the Lurch; What are we taken for? Muſt we ſuppoſe the Emperour, <hi>Ger<g ref="char:EOLhyphen"/>many, Spain,</hi> and <hi>Holland,</hi> will ſubmit to <hi>France,</hi> unleſs we ruine our ſelves for the Ex<g ref="char:EOLhyphen"/>pence of the War? Ought they not in a fair Computation be ſatisfied, if a Royal Navy be ſet out by the Engliſh, and their Common Enemy be diverted by deſcents, and annoyed by thoſe they uſed to have, if not aſſiſtant to <hi>France,</hi> yet neuter in their Wars.</p>
+            <p>But when they preſs theſe Bugbear Dan<g ref="char:EOLhyphen"/>gers of being left alone; an Engliſh Man may reaſonably give this Anſwer, That if we had the Moneys already expended, our Fleets in the Condition they might have been in, the Militia ſettled to the beſt Advantage, and a ſmall number of our own Troops a foot, we might reaſonably expect an Iſſue of the War, more to the Honour and Advantage of the Nation, depending upon our own Strength, than by this manner of conſuming our Wealth in the payment of Foreign Troops, within the Kingdom, that ſpend no<g ref="char:EOLhyphen"/>thing, and Engliſh Troops without, that ſpend all.</p>
+            <pb n="8" facs="tcp:34838:5"/>
+            <p>But however, when our Condition is moſt Dangerous, and that a General-Exciſe is pro<g ref="char:EOLhyphen"/>poſed; I hope moſt Engliſh Men will Anſwer like that Generous Spainard, who had a Statue erected for what he ſaid and did: It was in a Town in <hi>Caſtile</hi> hard preſs'd by the Moors, and the whole Countrey menac'd with utter Ruine, where a Propoſal was made that the King might raiſe Money in an unreaſonable manner; conſidering the great exigency of Affairs, to which he reply'd in the publick Counſel; <hi>If the Town be loſt, many brave</hi> Ca<g ref="char:EOLhyphen"/>ſtilians <hi>will loſe their Lives; if all</hi> Caſtile <hi>be over-run, more will periſh: But I doubt not ſome will remain to revenge us, and to gain their Countrey; but if this be conſented to, that is now propoſed, there is no</hi> Caſtilian <hi>left. I have Moneys in my Houſe, I will give it all; my Sword is by my Side, I will loſe the laſt drop of my Blood in defence of my Countrey; <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> every Man take the ſame Reſolution, and th<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> we need not fear but we ſhall preſerve <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Town, our Countrey, our Laws, our Honou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g> and our Liberty.</hi>
+            </p>
+            <p>But, Sir, I have given you too great <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> trouble; I ſhall end without any Form, an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſhall only ſay, That if a General-Exciſe b<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> conſented to, by the Members in Parliame<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:punc">▪</g> I ſhall conclude it is upon this dependence that they leave the Adminiſtration in the hands of Miniſters of ſo known Ability an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Integrity, that they think it ſafer than i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> their own; that they are ſecure of a Succeſ<g ref="char:EOLhyphen"/>ſion of <hi>Jure Divino</hi> States men for ever more. And, laſtly, That they are convinc'd this Go<g ref="char:EOLhyphen"/>vernment wants all their Money, but none of their Care.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:34838:5"/>
+         </div>
+      </body>
+   </text>
+</TEI>
